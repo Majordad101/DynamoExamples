@@ -12,11 +12,11 @@ Through computational design it's easy to draw but by traditional means it would
 
 ### Version 1
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Geometry%20Snapshots/hyperbolic-paraboloid-v1.preview.png)
+![](Geometry%20Snapshots/hyperbolic-paraboloid-v1.preview.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Graph%20Snapshots/hyperbolic-paraboloid-v1.graph.png)
+![](Graph%20Snapshots/hyperbolic-paraboloid-v1.graph.png)
 
-[hyperbolic-paraboloid-v1.dyn](https://github.com/StudioLE/DynamoExamples/blob/master/hyperbolic-paraboloid-v1.dyn)
+[hyperbolic-paraboloid-v1.dyn](hyperbolic-paraboloid-v1.dyn)
 
 Create two lines. One ascending and one descending space them apart and then `Surface.ByLoft` a surface between them. Done! You've created a Hyperbolic Paraboloid in Dynamo.
 
@@ -24,25 +24,25 @@ Along the way you've learnt about origins, points, number inputs, number sliders
 
 ### Version 2
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Geometry%20Snapshots/hyperbolic-paraboloid-v2.preview.png)
+![](Geometry%20Snapshots/hyperbolic-paraboloid-v2.preview.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Graph%20Snapshots/hyperbolic-paraboloid-v2.graph.png)
+![](Graph%20Snapshots/hyperbolic-paraboloid-v2.graph.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Diff%20Snapshots/hyperbolic-paraboloid-v1-v2.diff.png)
+![](Diff%20Snapshots/hyperbolic-paraboloid-v1-v2.diff.png)
 
-[hyperbolic-paraboloid-v2.dyn](https://github.com/StudioLE/DynamoExamples/blob/master/hyperbolic-paraboloid-v2.dyn)
+[hyperbolic-paraboloid-v2.dyn](hyperbolic-paraboloid-v2.dyn)
 
 In version 1 we learnt about lists. So, lets now introduce lacing. Instead of having four `Geometry.Translate` nodes we'll use lists as inputs to do multiple translations, simplifying the script to just two `Geometry.Translate` nodes and one `Line.ByStartPointEndPoint`.
 
 ### Version 3
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Geometry%20Snapshots/hyperbolic-paraboloid-v3.preview.png)
+![](Geometry%20Snapshots/hyperbolic-paraboloid-v3.preview.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Graph%20Snapshots/hyperbolic-paraboloid-v3.graph.png)
+![](Graph%20Snapshots/hyperbolic-paraboloid-v3.graph.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Diff%20Snapshots/hyperbolic-paraboloid-v2-v3.diff.png)
+![](Diff%20Snapshots/hyperbolic-paraboloid-v2-v3.diff.png)
 
-[hyperbolic-paraboloid-v3.dyn](https://github.com/StudioLE/DynamoExamples/blob/master/hyperbolic-paraboloid-v3.dyn)
+[hyperbolic-paraboloid-v3.dyn](hyperbolic-paraboloid-v3.dyn)
 
 Lets now show how to use Design Script `Code Blocks` to define lists. These are a little more complex that just using nodes but they make graphs much simpler!
 
@@ -52,13 +52,13 @@ Lets now show how to use Design Script `Code Blocks` to define lists. These are 
 
 ### Version 4
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Geometry%20Snapshots/hyperbolic-paraboloid-v4.preview.png)
+![](Geometry%20Snapshots/hyperbolic-paraboloid-v4.preview.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Graph%20Snapshots/hyperbolic-paraboloid-v4.graph.png)
+![](Graph%20Snapshots/hyperbolic-paraboloid-v4.graph.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Diff%20Snapshots/hyperbolic-paraboloid-v3-v4.diff.png)
+![](Diff%20Snapshots/hyperbolic-paraboloid-v3-v4.diff.png)
 
-[hyperbolic-paraboloid-v4.dyn](https://github.com/StudioLE/DynamoExamples/blob/master/hyperbolic-paraboloid-v4.dyn)
+[hyperbolic-paraboloid-v4.dyn](hyperbolic-paraboloid-v4.dyn)
 
 Now we'll introduce you to sequences and ranges. Don't forget to use lots of `Watch` panel nodes so we can see what's going on! Instead of creating just two lines we're going to create a whole series of them. Then we'll do the same again on the other axis but using `Curve.PointAtParameter`.
 
@@ -68,13 +68,13 @@ Now we'll introduce you to sequences and ranges. Don't forget to use lots of `Wa
 
 ### Version 5
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Geometry%20Snapshots/hyperbolic-paraboloid-v5.preview.png)
+![](Geometry%20Snapshots/hyperbolic-paraboloid-v5.preview.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Graph%20Snapshots/hyperbolic-paraboloid-v5.graph.png)
+![](Graph%20Snapshots/hyperbolic-paraboloid-v5.graph.png)
 
-![](https://github.com/StudioLE/DynamoExamples/blob/master/Diff%20Snapshots/hyperbolic-paraboloid-v4-v5.diff.png)
+![](Diff%20Snapshots/hyperbolic-paraboloid-v4-v5.diff.png)
 
-[hyperbolic-paraboloid-v5.dyn](https://github.com/StudioLE/DynamoExamples/blob/master/hyperbolic-paraboloid-v5.dyn)
+[hyperbolic-paraboloid-v5.dyn](hyperbolic-paraboloid-v5.dyn)
 
 You should now have all the ammunition you need to start playing around with geometry in Dynamo. Start experimenting and see what you can create.
 
